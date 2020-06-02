@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ubuntu:wght@700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="/styles/main.css">
+        <link rel="stylesheet" href="styles/create-point.css">
+        <link rel="stylesheet" href="/styles/responsive.css">
+
+
+        <title>Create collection point</title>
+    </head>
+
+    <body>
+
+        <div id="page-create-point">
+
+            <header>
+                <img src="/assets/logo.svg" alt="brandlogo">
+                <a href="index.html">
+                    <span></span>
+                    Back to home
+                </a>
+            </header>
+
+            <form action="">
+                <h1>Collection point register</h1>
+
+                <fieldset>
+                    <legend>
+                        <h2>Entity data</h2>
+                    </legend>
+
+                    <div class="field">
+                        <label for="name">Entity name:</label>
+                        <input type="text" name="inputName" id="" placeholder="Ecoleta Corp.">
+                    </div>
+
+                    <div class="field-group">
+                        <div class="field">
+                            <label for="address">Address</label>
+                            <input type="text" name="address" id="" placeholder="V. 14th Street">
+                        </div>
+                        <div class="field">
+                            <label for="addressCompliment">Number/Compliment</label>
+                            <input type="text" name="addressCompliment" id="" placeholder="001 or Pharmacy">
+                        </div>
+                    </div>
+
+                    <div class="field-group">
+                        <div class="field">
+                            <label for="state">State</label>
+                            <select name="state" id="">
+                                <option value="">Select State</option>
+                            </select>
+                        </div>
+                        <div class="field">
+                            <label for="city">City</label>
+                            <select name="city" id="" disabled>
+                                <option value="">Select City</option>
+                            </select>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>
+                        <h2>Colletion Items</h2>
+                    </legend>
+                </fieldset>
+
+                <button type="submit">Submit</button>
+            </form>
+
+        </div>
+
+    </body>
+
+</html>
